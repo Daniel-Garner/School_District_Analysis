@@ -1,31 +1,46 @@
 # School_District_Analysis
 Module 4 repository
 
-A school board hired a consulting firm to analyze student data because of suspected academic dishonesty. /Resources/students_complete.csv shows evidence of reading and math grades for Thomas High School ninth graders appears to have been altered. The school board does not know the full extent of the academic dishonesty, and in order to uphold state testing standard, they have hired this firm for help.
+A school board hired a consulting firm to analyze student data because of suspected academic dishonesty. https://github.com/Daniel-Garner/School_District_Analysis/blob/main/Resources/students_complete.csv shows evidence of reading and math grades for Thomas High School ninth graders appears to have been altered. The school board does not know the full extent of the academic dishonesty, and in order to uphold state testing standard, they have hired this firm for help.
+
 The analysis conducted compares previous school district analysis against this firm's analysis in order to determine how the suspected academic dishonesty affects school performance.
+
 The school board has requested the following deliverables:
+
 •	A high-level snapshot of the district's key metrics, presented in a table format
+
 •	An overview of the key metrics for each school, presented in a table format
+
 •	Tables presenting each of the following metrics:
-o	Top 5 and bottom 5 performing schools, based on the overall passing rate
-o	The average math score received by students in each grade level at each school
-o	The average reading score received by students in each grade level at each school
-o	School performance based on the budget per student
-o	School performance based on the school size
-o	School performance based on the type of school
-Development Environment
+
+    o	Top 5 and bottom 5 performing schools, based on the overall passing rate
+    o	The average math score received by students in each grade level at each school
+    o	The average reading score received by students in each grade level at each school
+    o	School performance based on the budget per student
+    o	School performance based on the school size
+    o	School performance based on the type of school
+## Development Environment
 •	Jupyter Notebook
+
 •	Python v3.7.x
+
 o	Dependencies
-	Python Pandas library
-	Python Numpy library
-Resources
+
+  	Python Pandas library
+  
+  	Python Numpy library
+  
+### Resources
+
 •	https://github.com/Daniel-Garner/School_District_Analysis/blob/main/Resources/schools_complete.csv
+
 •	https://github.com/Daniel-Garner/School_District_Analysis/blob/main/Resources/students_complete.csv
-Results
-District Summary
+
+### Results
+
+### District Summary
  
-School Summary
+### School Summary
  
 Thomas High School Scores
 Math and reading scores for ninth graders at Thomas High School were replaced with 'NaN' so that their scores would not affect future calculations. If all of the students' scores were replaced with a '0', then this would negatively impact averages for the school and school district.
